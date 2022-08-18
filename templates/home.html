@@ -1,0 +1,19 @@
+{% extends 'base.html' %} 
+{% load static %}
+
+
+{% block content %}
+    <!-- tweets/templates/home.html -->
+
+
+
+  {% for tweet in object_list %}
+    <div class="tweet-entry">
+    <h4>{{ tweet.body }}</h4>
+    <p>{{ tweet.user }}</p>
+    </div>
+  {% endfor %}
+
+    <h2>Twitter Social Education</h2>
+
+{% endblock %}
