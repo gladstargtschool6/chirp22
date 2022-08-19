@@ -1,2 +1,2 @@
 # chirp22
-For the development of tech
+Chirp will help sharing necessary information with the help of twitter.
